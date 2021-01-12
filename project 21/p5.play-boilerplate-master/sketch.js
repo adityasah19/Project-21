@@ -32,10 +32,10 @@ function draw() {
     wall.shapeColor=(0,255,0)
   }
  
-
+  drawSprites();
 } 
   
-  drawSprites();
+  
 
  function hasCollided(lbullet,lwall){
  bulletRightEdge=lbullet.x+lbullet.width;
