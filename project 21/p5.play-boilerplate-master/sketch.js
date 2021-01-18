@@ -12,7 +12,7 @@ function setup() {
   
   bullet=createSprite(50,200,50,50)
   bullet.velocityX=speed;
-  bullet.shapeColor=color('white')
+  bullet.shapeColor=color('blue')
   
   wall=createSprite(1200,200,thickness,height/2)
   wall.shapeColor=color(80,80,80)
@@ -31,7 +31,7 @@ function draw() {
   if(damage<10){
     wall.shapeColor=(0,255,0)
   }
- 
+}
   drawSprites();
 } 
   
@@ -51,7 +51,7 @@ function draw() {
 
 
 
-}
+
 
 
 
